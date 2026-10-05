@@ -8,7 +8,7 @@ I like practical tools: checking whether a service works, finding problems in lo
 
 - [LogLens](https://github.com/fixhmn/loglens) — a small Python CLI for Nginx access logs, including compressed `.gz` files. It reports HTTP errors and hourly traffic without including IP addresses or query strings. No runtime dependencies.
 - [JobTracker](https://github.com/fixhmn/jobtracker) — a Telegram-based application tracker with a FastAPI backend, SQLite history, exports, and reminder recovery.
-- **BenchDesk** — a Windows desktop workbench for HTTP checks, local fault demos, run history, and HTML reports. Built with PySide6 and HTTPX; the repository is currently private.
+- [BenchDesk](https://github.com/fixhmn/benchdesk) — a Windows desktop workbench for HTTP checks, local fault demos, run history, and HTML reports. Built with PySide6 and HTTPX.
 
 The public repositories include setup instructions, synthetic examples, tests, and GitHub Actions workflows. These are personal projects, not claims of production deployments.
 
