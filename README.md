@@ -1,26 +1,27 @@
 # fixhmn
 
-Python developer based in Austin, Texas. Looking for a junior backend or Python automation role.
+Python developer based in Austin, Texas, with a background in systems administration and automation. Open to junior backend, infrastructure, and technical support roles.
 
-I work with Python, REST APIs, SQL, and Telegram bots. My earlier roles also involved system administration and automation, so I enjoy building tools that make everyday work easier.
+I like practical tools: checking whether a service works, finding problems in logs, and taking repetitive work off someone's hands. My main tools are Python, REST APIs, SQL, Linux, and Git.
 
-## What I'm building
+## Projects
 
-**JobTracker** — a single-user Telegram bot for tracking job applications and follow-ups.
+- [LogLens](https://github.com/fixhmn/loglens) — a small Python CLI for Nginx access logs, including compressed `.gz` files. It reports HTTP errors and hourly traffic without including IP addresses or query strings. No runtime dependencies.
+- [JobTracker](https://github.com/fixhmn/jobtracker) — a Telegram-based application tracker with a FastAPI backend, SQLite history, exports, and reminder recovery.
+- **BenchDesk** — a Windows desktop workbench for HTTP checks, local fault demos, run history, and HTML reports. Built with PySide6 and HTTPX; the repository is currently private.
 
-- FastAPI backend and SQLite storage
-- Application status history, search, and CSV exports
-- Scheduled reminders with retries and delivery recovery
-- Tests for API behavior, bot interactions, and timezone edge cases
+The public repositories include setup instructions, synthetic examples, tests, and GitHub Actions workflows. These are personal projects, not claims of production deployments.
 
-The project runs locally with an offline demo. Live Telegram integration and the Docker setup still need end-to-end verification before I call it ready for everyday use.
+## What I'm working on
+
+Making diagnostic tools more useful with real input formats, testing failure cases, and improving the setup and documentation so someone else can try them. I prefer small, understandable modules over adding infrastructure a project doesn't need yet.
 
 ## Tools
 
-Python · FastAPI · aiogram · SQL · SQLite · Git · Linux · Docker
+Python · FastAPI · HTTPX · SQL · SQLite · PySide6 · pytest · GitHub Actions · Linux · Docker · Ansible
 
-I'm focusing on writing understandable backend code, testing failure cases, and getting better at shipping small, useful applications.
+Hands-on project work includes API integration, background workers, desktop interfaces, and log analysis. My administration experience is strongest with Linux and business applications.
 
 ## Contact
 
-For junior Python/backend opportunities in Austin, reach me at **channelgy@gmail.com**.
+For opportunities in Austin, reach me at **channelgy@gmail.com**.
